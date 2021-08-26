@@ -1,5 +1,8 @@
 # gbif-blocking-occurrence-download
 
+[![Run unit tests on push](https://github.com/niconoe/gbif-blocking-occurrence-download/actions/workflows/run_tests.yml/badge.svg)](https://github.com/niconoe/gbif-blocking-occurrence-download/actions/workflows/run_tests.yml)
+[![PyPI version](https://badge.fury.io/py/gbif-blocking-occurrence-download.svg)](https://badge.fury.io/py/gbif-blocking-occurrence-download)
+
 A simple Python function to help downloading occurrences from GBIF.
 
 The function is blocking while GBIF are preparing the download, so a 15-30 minute execution time is not abnormal.

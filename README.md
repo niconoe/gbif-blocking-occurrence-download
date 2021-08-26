@@ -57,3 +57,4 @@ $ black .
 - Update `CHANGELOG.md`
 - Update version number in `pyproject.toml`
 - Run `$ poetry build` and `$ poetry publish`
+- Push a tag on GitHub

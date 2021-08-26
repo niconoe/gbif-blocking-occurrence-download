@@ -4,6 +4,12 @@ A simple Python function to help downloading occurrences from GBIF.
 
 The function is blocking while GBIF are preparing the download, so a 15-30 minute execution time is not abnormal.
 
+## Install
+
+```
+$ pip install gbif-blocking-occurrence-download
+```
+
 ## Example use
 
 To trigger a download, you'll need:

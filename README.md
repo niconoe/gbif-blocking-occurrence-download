@@ -48,7 +48,7 @@ download_occurrences(
 - We're using Poetry to manage dependencies, publish to PyPI, ...
 - Code formatted with Black:
 
-```
+```bash
 $ black .
 ```
 
@@ -57,4 +57,9 @@ $ black .
 - Update `CHANGELOG.md`
 - Update version number in `pyproject.toml`
 - Run `$ poetry build` and `$ poetry publish`
-- Push a tag on GitHub
+- Push a tag on GitHub:
+```bash
+$ git tag vX.Y.Z
+$ git push origin --tags
+```
+

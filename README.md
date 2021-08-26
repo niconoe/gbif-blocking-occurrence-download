@@ -53,10 +53,10 @@ download_occurrences(
 
 - We're using Poetry to manage dependencies, publish to PyPI, ...
 - Code formatted with Black:
-
 ```bash
 $ black .
 ```
+- We're using pytest for unit testing
 
 ### New release
 

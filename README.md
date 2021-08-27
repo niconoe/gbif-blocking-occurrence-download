@@ -61,7 +61,7 @@ $ black .
 ```
 - We're using pytest for unit testing
 
-### New release
+### How to issue a new release
 
 - Update `CHANGELOG.md`
 - Update version number in `pyproject.toml`

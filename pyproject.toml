@@ -3,7 +3,7 @@ name = "gbif-blocking-occurrence-download"
 packages = [
     { include = "./gbif_blocking_occurrences_download.py" }
 ]
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Nicolas Noé <nicolas.noe@inbo.be>"]
 
